@@ -58,4 +58,19 @@ public class A_For {
 
         System.out.println(firstNum + "부터 " + secondNum + "까지의 합계 : " + sum);
     }
+
+
+    public void printSimpleGugudan() {
+        /* 사용자가 입력하는 단의 구구단을 출력하기 */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("출력할 구구단의 단 수 : ");
+        int dan = sc.nextInt();
+
+        if (dan >= 2 && dan <= 9)
+            for (int i = 1; i <= 10; i++)
+                System.out.println(dan + " x " + i + " = " + (dan * i));
+        else
+            System.out.println("반드시 2~9 사이의 양수를 입력하셔야 합니다.");
+
+    }
 }

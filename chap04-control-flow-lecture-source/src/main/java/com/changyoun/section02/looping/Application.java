@@ -6,6 +6,13 @@ public class Application {
 //        aFor.testSimpleForStatement();
 //        aFor.testForExample();
 //        aFor.testForExample2();
-        aFor.testForExample3();
+//        aFor.testForExample3();
+//        aFor.printSimpleGugudan();
+
+        B_nestedFor b = new B_nestedFor();
+//        b.printGugudanFromTwoToNine();
+
+        b.printStarInputRowTimes();
     }
+
 }
