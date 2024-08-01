@@ -5,6 +5,7 @@ public class Application {
         A_For aFor = new A_For();
 //        aFor.testSimpleForStatement();
 //        aFor.testForExample();
-        aFor.testForExample2();
+//        aFor.testForExample2();
+        aFor.testForExample3();
     }
 }
