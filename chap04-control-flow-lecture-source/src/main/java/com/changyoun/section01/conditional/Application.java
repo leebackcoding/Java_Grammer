@@ -6,6 +6,15 @@ public class Application {
 //        aIf.testSimpleIfStatement();
 
         B_ifElse b = new B_ifElse();
-        b.testSimpleIfElseStatement();
+//        b.testSimpleIfElseStatement();
+
+        C_IfElseIf c = new C_IfElseIf();
+//        c.testSimpleIfElseIfStatement();
+//        c.testNestedIfElseIfStatement();
+//        c.improveNestedIfElseIfStatement();
+
+        D_switch d = new D_switch();
+//        d.testSimpleSwitchStatement();
+        d.improveSwitchStatement();
     }
 }
